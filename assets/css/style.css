@@ -8,23 +8,25 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
+/*The header section dispalys at the top of the webpage*/
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*These letters will be a different color than the rest of those in the word "Horiseon*/
 #seo {
     color: #d9dcd6;
 }
 
-.header nav {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +34,11 @@ body {
     font-size: 20px;
 }
 
-.header nav ul {
+header nav ul {
     list-style-type: none;
 }
 
-.header nav ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -46,10 +48,7 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
+/*This section dispalys a large photo on the webpage*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,12 +58,17 @@ p {
     background-position: center;
 }
 
-.content-topics{
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+p {
+    font-size: 16px;
+}
+
+/*The picture within each box of content is set to alternate left and right with float-left and float-right attributes*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -93,6 +97,7 @@ p {
     font-size: 36px;
 }
 
+/*The following section will display along the right of the webpage*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -120,6 +125,7 @@ p {
     max-width: 150px;
 }
 
+/*The footer sits at the bottom of the page*/
 footer {
     padding: 30px;
     clear: both;
